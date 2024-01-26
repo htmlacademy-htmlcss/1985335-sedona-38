@@ -10,7 +10,7 @@
       <header class="page-header" data-test="header">
         <div class="page-header-container">
           <nav class="navigation">
-            <a class="navi gation-logo" href="index.html">
+            <a class="navigation-logo" href="index.html">
               <img class="page-header-logo" src="images/logo.svg" width="140" height="70" alt="Логотип города Седона.">
             </a>
             <ul class="navigation-list">
@@ -127,11 +127,13 @@
           <div class="catalog-products-container">
             <div class="catalog-products-header">
               <h2 class="catalog-products-title">Найдено гостиниц: <span>38</span></h2>
-              <select class="select-control" aria-label="Сортировка">
-                <option value="popular">Сначала популярные</option>
-                <option value="cheap" selected>Сначала дешёвые</option>
-                <option value="expensive">Сначала дорогие</option>
-              </select>
+              <div class="select sorting-type">
+                <select class="select-control" aria-label="Сортировка">
+                  <option value="popular">Сначала популярные</option>
+                  <option value="cheap" selected>Сначала дешёвые</option>
+                  <option value="expensive">Сначала дорогие</option>
+                </select>
+              </div>
               <ul class="view-buttons">
                 <li class="view-button-item">
                   <a class="view-button-tile" href="#">
