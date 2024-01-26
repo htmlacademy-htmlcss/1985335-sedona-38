@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Марьяна Академова](https://up.htmlacademy.ru/htmlcss/38/user/1985335).
-* Наставник: `Неизвестно`.
+* Наставник: [Алексей Симоненко](https://htmlacademy.ru/profile/simonenko).
 
 ---
 
